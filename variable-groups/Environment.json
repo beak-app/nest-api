@@ -1,0 +1,21 @@
+{
+	"groups": {
+		"group_000000C2w04QsbaCLpes5P3cs4w5b": "Production",
+		"group_000000C2w04QsbaCLpes5P3cs4w5c": "Local"
+	},
+	"items": {
+		"item_000000C2w04QsbaCLpes5P3cs4w5d": "env-identifer"
+	},
+	"values": {
+		"value_000000C2w04QsbaCLpes5P3cs4w5e": {
+			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5b",
+			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5d",
+			"value": "prod"
+		},
+		"value_000000C2w04QsbaCLpes5P3cs4w5f": {
+			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
+			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5d",
+			"value": "local"
+		}
+	}
+}
