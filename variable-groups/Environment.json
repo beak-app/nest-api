@@ -4,7 +4,8 @@
 		"group_000000C2w04QsbaCLpes5P3cs4w5c": "Local"
 	},
 	"items": {
-		"item_000000C2w04QsbaCLpes5P3cs4w5d": "env-identifer"
+		"item_000000C2w04QsbaCLpes5P3cs4w5d": "env",
+		"item_000000C2w04QsbaCLpes5P3cs4w5e": "host"
 	},
 	"values": {
 		"value_000000C2w04QsbaCLpes5P3cs4w5e": {
@@ -15,7 +16,17 @@
 		"value_000000C2w04QsbaCLpes5P3cs4w5f": {
 			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
 			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5d",
-			"value": "local"
+			"value": "test"
+		},
+		"value_000000C310uv2fsmVQUjY7BnBFmrI": {
+			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5b",
+			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e",
+			"value": "nest.getbeak.app"
+		},
+		"value_000000C310vMUUS4K99LUUV098zCK": {
+			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
+			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e",
+			"value": "nest.getbeak.local"
 		}
 	}
 }

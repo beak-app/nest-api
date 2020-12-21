@@ -1,0 +1,20 @@
+{
+	"id": "request_000000C2w04QsbaCLpes5P3cs4w5Y",
+	"verb": "post",
+	"url": [
+		"https://",
+		{
+			"type": "variable_group_item",
+			"payload": {
+				"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
+			}
+		},
+		"/1/2020-12-14/send_magic_link"
+	],
+	"query": {},
+	"headers": {},
+	"body": {
+		"type": "text",
+		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/callback\",\r\n\t\"state\": \"lx/rAzKFsThZ+pqne+uCQZ2OamjZtpW_GtdtUwvEaAg7t\",\r\n\t\"code_challenge_method\": \"S256\",\r\n\t\"code_challenge\": \"KsNozrrrHSmQ28QLwrIeeo-cTuPw6hAGxUdbvjXatFM\",\r\n\t\"identifier_type\": \"email\",\r\n\t\"identifier_value\": \"info@getbeak.app\"\r\n}"
+	}
+}
