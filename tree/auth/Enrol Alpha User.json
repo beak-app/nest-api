@@ -1,0 +1,28 @@
+{
+	"id": "request_000000C46F2lXwzjkaHDGhFNrSCnY",
+	"verb": "post",
+	"url": [
+		"https://",
+		{
+			"type": "variable_group_item",
+			"payload": {
+				"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
+			}
+		},
+		"/1/2020-12-14/enrol_alpha_user"
+	],
+	"query": {},
+	"headers": {
+		"header_000000C46F4CkqqQ9vPCZv0JV66Ou": {
+			"name": "authorization",
+			"value": [
+				"internal test"
+			],
+			"enabled": true
+		}
+	},
+	"body": {
+		"type": "json",
+		"payload": "{\r\n\t\"email\": \"test+1@getbeak.app\"\r\n}"
+	}
+}
