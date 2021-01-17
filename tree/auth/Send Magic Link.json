@@ -15,6 +15,6 @@
 	"headers": {},
 	"body": {
 		"type": "text",
-		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/callback\",\r\n\t\"state\": \"lx/rAzKFsThZ+pqne+uCQZ2OamjZtpW_GtdtUwvEaAg7t\",\r\n\t\"code_challenge_method\": \"S256\",\r\n\t\"code_challenge\": \"KsNozrrrHSmQ28QLwrIeeo-cTuPw6hAGxUdbvjXatFM\",\r\n\t\"identifier_type\": \"email\",\r\n\t\"identifier_value\": \"info@getbeak.app\"\r\n}"
+		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/\",\r\n\t\"state\": \"lx/rAzKFsThZ+pqne+uCQZ2OamjZtpW_GtdtUwvEaAg7t\",\r\n\t\"code_challenge_method\": \"S256\",\r\n\t\"code_challenge\": \"KsNozrrrHSmQ28QLwrIeeo-cTuPw6hAGxUdbvjXatFM\",\r\n\t\"identifier_type\": \"email\",\r\n\t\"identifier_value\": \"beak@duffleman.co.uk\"\r\n}"
 	}
 }

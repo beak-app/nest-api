@@ -11,10 +11,24 @@
 		},
 		"/1/2020-12-14/authenticate_user"
 	],
-	"query": {},
+	"query": {
+		"query_000000C33MzyR0KzfHfuYy4RitaFc": {
+			"name": "testings",
+			"value": [
+				"teeth ",
+				{
+					"type": "variable_group_item",
+					"payload": {
+						"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
+					}
+				}
+			],
+			"enabled": true
+		}
+	},
 	"headers": {},
 	"body": {
-		"type": "json",
+		"type": "text",
 		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"grant_type\": \"authorization_code\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/callback\",\r\n\t\"code\": \"\",\r\n\t\"code_verifier\": \"tulum2020-lol\"\r\n}"
 	}
 }
