@@ -2,7 +2,17 @@
 	"id": "request_000000C310YS1WzwjsFg1Asu1MvHU",
 	"verb": "post",
 	"url": [
-		"https://nest.getbeak.app/send_magic_link"
+		"https://",
+		{
+			"type": "variable_group_item",
+			"payload": {
+				"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
+			}
+		},
+		"",
+		"",
+		"/send_magic_link",
+		""
 	],
 	"query": {},
 	"headers": {
