@@ -20,12 +20,40 @@
 			"enabled": true,
 			"name": "Authentication",
 			"value": [
-				"bearer "
+				"internal ",
+				{
+					"type": "variable_group_item",
+					"payload": {
+						"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw"
+					}
+				},
+				"",
+				""
 			]
 		}
 	},
 	"body": {
 		"type": "json",
-		"payload": "{\r\n\t\"user_id\": \"user_000000C2kdCzNlbL1BqR5FeMatItU\"\r\n}"
+		"payload": {
+			"jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8e": {
+				"id": "jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8e",
+				"enabled": true,
+				"parentId": null,
+				"type": "object"
+			},
+			"jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8f": {
+				"id": "jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8f",
+				"name": "user_id",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8e",
+				"type": "string",
+				"value": [
+					"user_000000C2kdCzNlbL1BqR5FeMatItU"
+				]
+			}
+		}
+	},
+	"options": {
+		"followRedirects": false
 	}
 }

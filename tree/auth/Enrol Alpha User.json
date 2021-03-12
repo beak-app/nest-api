@@ -16,13 +16,41 @@
 		"header_000000C46F4CkqqQ9vPCZv0JV66Ou": {
 			"name": "authorization",
 			"value": [
-				"internal test"
+				"internal ",
+				{
+					"type": "variable_group_item",
+					"payload": {
+						"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw"
+					}
+				},
+				"",
+				""
 			],
 			"enabled": true
 		}
 	},
 	"body": {
 		"type": "json",
-		"payload": "{\r\n\t\"email\": \"test+1@getbeak.app\"\r\n}"
+		"payload": {
+			"jsonentry_000000C5dlrkG2DeL0L2umrXe6LDM": {
+				"id": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDM",
+				"enabled": true,
+				"parentId": null,
+				"type": "object"
+			},
+			"jsonentry_000000C5dlrkG2DeL0L2umrXe6LDN": {
+				"id": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDN",
+				"name": "email",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDM",
+				"type": "string",
+				"value": [
+					"beak@jamesbillingham.com"
+				]
+			}
+		}
+	},
+	"options": {
+		"followRedirects": false
 	}
 }

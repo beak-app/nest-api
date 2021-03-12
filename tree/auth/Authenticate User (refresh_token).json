@@ -21,9 +21,73 @@
 			"enabled": true
 		}
 	},
-	"headers": {},
+	"headers": {
+		"header_000000C6H2WRfCfJP4HYC6QuZ1olk": {
+			"name": "Authorization",
+			"value": [
+				"internal ",
+				{
+					"type": "variable_group_item",
+					"payload": {
+						"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw"
+					}
+				}
+			],
+			"enabled": true
+		}
+	},
 	"body": {
-		"type": "text",
-		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"grant_type\": \"refresh_token\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/callback\",\r\n\t\"refresh_token\": \"\"\r\n}"
+		"type": "json",
+		"payload": {
+			"jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q": {
+				"id": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q",
+				"enabled": true,
+				"parentId": null,
+				"type": "object"
+			},
+			"jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2r": {
+				"id": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2r",
+				"name": "client_id",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q",
+				"type": "string",
+				"value": [
+					"client_000000C2kdCzNlbL1BqR5FeMatItU"
+				]
+			},
+			"jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2s": {
+				"id": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2s",
+				"name": "grant_type",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q",
+				"type": "string",
+				"value": [
+					"refresh_token"
+				]
+			},
+			"jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2t": {
+				"id": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2t",
+				"name": "redirect_uri",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q",
+				"type": "string",
+				"value": [
+					"https://magic.getbeak.app/callback"
+				]
+			},
+			"jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2u": {
+				"id": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2u",
+				"name": "refresh_token",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrWX7w0Qe0jwbCwA9k2q",
+				"type": "string",
+				"value": [
+					""
+				]
+			}
+		}
+	},
+	"options": {
+		"followRedirects": false
 	}
 }

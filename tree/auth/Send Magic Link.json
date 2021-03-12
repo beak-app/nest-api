@@ -12,9 +12,105 @@
 		"/1/2020-12-14/send_magic_link"
 	],
 	"query": {},
-	"headers": {},
+	"headers": {
+		"header_000000C6H2ZQwSVVAvhgIdm4aHuYi": {
+			"name": "Authorization",
+			"value": [
+				"internal ",
+				{
+					"type": "variable_group_item",
+					"payload": {
+						"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw"
+					}
+				},
+				"",
+				""
+			],
+			"enabled": true
+		}
+	},
 	"body": {
-		"type": "text",
-		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/\",\r\n\t\"state\": \"lx/rAzKFsThZ+pqne+uCQZ2OamjZtpW_GtdtUwvEaAg7t\",\r\n\t\"code_challenge_method\": \"S256\",\r\n\t\"code_challenge\": \"KsNozrrrHSmQ28QLwrIeeo-cTuPw6hAGxUdbvjXatFM\",\r\n\t\"identifier_type\": \"email\",\r\n\t\"identifier_value\": \"beak@duffleman.co.uk\"\r\n}"
+		"type": "json",
+		"payload": {
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNs": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"enabled": true,
+				"parentId": null,
+				"type": "object"
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNt": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNt",
+				"name": "client_id",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"client_000000C2kdCzNlbL1BqR5FeMatItU"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNu": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNu",
+				"name": "redirect_uri",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"https://magic.getbeak.app/"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNv": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNv",
+				"name": "state",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"lx/rAzKFsThZ+pqne+uCQZ2OamjZtpW_GtdtUwvEaAg7t"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNw": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNw",
+				"name": "code_challenge_method",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"S256"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNx": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNx",
+				"name": "code_challenge",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"KsNozrrrHSmQ28QLwrIeeo-cTuPw6hAGxUdbvjXatFM"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNy": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNy",
+				"name": "identifier_type",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"email"
+				]
+			},
+			"jsonentry_000000C5dlrxywVIFMfLsyW982wNz": {
+				"id": "jsonentry_000000C5dlrxywVIFMfLsyW982wNz",
+				"name": "identifier_value",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
+				"type": "string",
+				"value": [
+					"beak@duffleman.co.uk"
+				]
+			}
+		}
+	},
+	"options": {
+		"followRedirects": false
 	}
 }

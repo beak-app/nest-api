@@ -11,24 +11,102 @@
 		},
 		"/1/2020-12-14/authenticate_user"
 	],
-	"query": {
-		"query_000000C33MzyR0KzfHfuYy4RitaFc": {
-			"name": "testings",
+	"query": {},
+	"headers": {
+		"header_000000C6H2TSNwp7dCrQ5Z5kXliym": {
+			"name": "Authorization",
 			"value": [
-				"teeth ",
+				"internal ",
 				{
 					"type": "variable_group_item",
 					"payload": {
-						"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
+						"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw"
 					}
 				}
 			],
 			"enabled": true
 		}
 	},
-	"headers": {},
 	"body": {
-		"type": "text",
-		"payload": "{\r\n\t\"client_id\": \"client_000000C2kdCzNlbL1BqR5FeMatItU\",\r\n\t\"grant_type\": \"authorization_code\",\r\n\t\"redirect_uri\": \"https://magic.getbeak.app/callback\",\r\n\t\"code\": \"\",\r\n\t\"code_verifier\": \"tulum2020-lol\"\r\n}"
+		"type": "json",
+		"payload": {
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXho": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"enabled": true,
+				"parentId": null,
+				"type": "object"
+			},
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXhp": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXhp",
+				"name": "client_id",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"type": "string",
+				"value": [
+					"client_000000C2kdCzNlbL1BqR5FeMatItU"
+				]
+			},
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXhq": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXhq",
+				"name": "grant_type",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"type": "string",
+				"value": [
+					"authorization_code"
+				]
+			},
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXhr": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXhr",
+				"name": "redirect_uri",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"type": "string",
+				"value": [
+					"https://magic.getbeak.app/callback"
+				]
+			},
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXhs": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXhs",
+				"name": "code",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"type": "string",
+				"value": [
+					""
+				]
+			},
+			"jsonentry_000000C5dlr55JMibvM80DtjCGXht": {
+				"id": "jsonentry_000000C5dlr55JMibvM80DtjCGXht",
+				"name": "code_verifier",
+				"enabled": true,
+				"parentId": "jsonentry_000000C5dlr55JMibvM80DtjCGXho",
+				"type": "string",
+				"value": [
+					"tulum2020-lol"
+				]
+			},
+			"jsonentry_000000C6H5NyZGtYRswwkrflv2cng": {
+				"id": "jsonentry_000000C6H5NyZGtYRswwkrflv2cng",
+				"parentId": "jsonentry_000000C6H5NQG0BRfz8BKOXGDB7sO",
+				"type": "string",
+				"enabled": true,
+				"value": [
+					"a"
+				]
+			},
+			"jsonentry_000000C6H5O5Qj2NP476ExV4f0vNw": {
+				"id": "jsonentry_000000C6H5O5Qj2NP476ExV4f0vNw",
+				"parentId": "jsonentry_000000C6H5NQG0BRfz8BKOXGDB7sO",
+				"type": "string",
+				"enabled": true,
+				"value": [
+					"b"
+				]
+			}
+		}
+	},
+	"options": {
+		"followRedirects": false
 	}
 }
