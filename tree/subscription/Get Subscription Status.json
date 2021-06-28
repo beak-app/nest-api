@@ -2,23 +2,19 @@
 	"id": "request_000000C310YS1WzwjsFg1Asu1MvHU",
 	"verb": "post",
 	"url": [
-		"https://",
 		{
 			"type": "variable_group_item",
 			"payload": {
 				"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e"
 			}
 		},
-		"",
-		"",
-		"/send_magic_link",
-		""
+		"/1/2020-12-14/get_subscription_status"
 	],
 	"query": {},
 	"headers": {
 		"header_000000C2w04QsbaCLpes5P3cs4w5a": {
 			"enabled": true,
-			"name": "Authentication",
+			"name": "Authorization",
 			"value": [
 				"internal ",
 				{
@@ -39,7 +35,8 @@
 				"id": "jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8e",
 				"enabled": true,
 				"parentId": null,
-				"type": "object"
+				"type": "object",
+				"name": "<Root>"
 			},
 			"jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8f": {
 				"id": "jsonentry_000000C5dlsIZIvl6u9oLG03Lxq8f",

@@ -2,7 +2,6 @@
 	"id": "request_000000C2w04QsbaCLpes5P3cs4w5Y",
 	"verb": "post",
 	"url": [
-		"https://",
 		{
 			"type": "variable_group_item",
 			"payload": {
@@ -105,7 +104,7 @@
 				"parentId": "jsonentry_000000C5dlrxywVIFMfLsyW982wNs",
 				"type": "string",
 				"value": [
-					"beak@duffleman.co.uk"
+					"example@getbeak.app"
 				]
 			}
 		}

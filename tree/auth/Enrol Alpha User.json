@@ -2,7 +2,6 @@
 	"id": "request_000000C46F2lXwzjkaHDGhFNrSCnY",
 	"verb": "post",
 	"url": [
-		"https://",
 		{
 			"type": "variable_group_item",
 			"payload": {
@@ -14,7 +13,7 @@
 	"query": {},
 	"headers": {
 		"header_000000C46F4CkqqQ9vPCZv0JV66Ou": {
-			"name": "authorization",
+			"name": "Authorization",
 			"value": [
 				"internal ",
 				{
@@ -36,7 +35,8 @@
 				"id": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDM",
 				"enabled": true,
 				"parentId": null,
-				"type": "object"
+				"type": "object",
+				"name": "<Root>"
 			},
 			"jsonentry_000000C5dlrkG2DeL0L2umrXe6LDN": {
 				"id": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDN",
@@ -45,7 +45,7 @@
 				"parentId": "jsonentry_000000C5dlrkG2DeL0L2umrXe6LDM",
 				"type": "string",
 				"value": [
-					"beak@jamesbillingham.com"
+					"example@getbeak.app"
 				]
 			}
 		}

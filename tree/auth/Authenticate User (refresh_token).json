@@ -2,7 +2,6 @@
 	"id": "request_000000C3mdj9Uv87xTrNcwjJldmJE",
 	"verb": "post",
 	"url": [
-		"https://",
 		{
 			"type": "variable_group_item",
 			"payload": {
