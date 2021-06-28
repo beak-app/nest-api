@@ -9,53 +9,29 @@
 		"item_000000C6H20n5NyGPZRnNDmSUs5Vw": "internal_key"
 	},
 	"values": {
-		"value_000000C2w04QsbaCLpes5P3cs4w5e": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5b",
-			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5d",
-			"value": [
-				"prod"
-			]
-		},
-		"value_000000C2w04QsbaCLpes5P3cs4w5f": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
-			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5d",
-			"value": [
-				"local"
-			]
-		},
-		"value_000000C310uv2fsmVQUjY7BnBFmrI": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5b",
-			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e",
-			"value": [
-				"nest.getbeak.app"
-			]
-		},
-		"value_000000C310vMUUS4K99LUUV098zCK": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
-			"itemId": "item_000000C2w04QsbaCLpes5P3cs4w5e",
-			"value": [
-				"nest.getbeak.local:3000"
-			]
-		},
-		"value_000000C6H217fkOjH6wFpVGMimzGi": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5b",
-			"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw",
-			"value": [
-				{
-					"type": "secure",
-					"payload": {
-						"iv": "n/OiuMr8IJOakHzz71Rm0w==",
-						"datum": "kG7X8tXlYLeyKlsZIgj+s004HqamOtze6Y4i1oCkKsKo/fHR4VNgDeY0qUGqP5hRivQ="
-					}
+		"group_000000C2w04QsbaCLpes5P3cs4w5b&item_000000C2w04QsbaCLpes5P3cs4w5d": [
+			"prod"
+		],
+		"group_000000C2w04QsbaCLpes5P3cs4w5c&item_000000C2w04QsbaCLpes5P3cs4w5d": [
+			"local"
+		],
+		"group_000000C2w04QsbaCLpes5P3cs4w5b&item_000000C2w04QsbaCLpes5P3cs4w5e": [
+			"https://nest.getbeak.app"
+		],
+		"group_000000C2w04QsbaCLpes5P3cs4w5c&item_000000C2w04QsbaCLpes5P3cs4w5e": [
+			"http://nest.getbeak.local:3001"
+		],
+		"group_000000C2w04QsbaCLpes5P3cs4w5b&item_000000C6H20n5NyGPZRnNDmSUs5Vw": [
+			{
+				"type": "secure",
+				"payload": {
+					"iv": "n/OiuMr8IJOakHzz71Rm0w==",
+					"datum": "kG7X8tXlYLeyKlsZIgj+s004HqamOtze6Y4i1oCkKsKo/fHR4VNgDeY0qUGqP5hRivQ="
 				}
-			]
-		},
-		"value_000000C6H21Z7Yy15parlsZZggBbk": {
-			"groupId": "group_000000C2w04QsbaCLpes5P3cs4w5c",
-			"itemId": "item_000000C6H20n5NyGPZRnNDmSUs5Vw",
-			"value": [
-				"test"
-			]
-		}
+			}
+		],
+		"group_000000C2w04QsbaCLpes5P3cs4w5c&item_000000C6H20n5NyGPZRnNDmSUs5Vw": [
+			"test"
+		]
 	}
 }
